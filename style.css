@@ -7,8 +7,7 @@ ul {
 
 ul>li {
     display: inline-block;
-     width: 200px;
-    padding: 10px;
+    width: 550px;
 }
 
 #Cím {
@@ -22,11 +21,27 @@ ul>li {
     color: whitesmoke;
     background-color: teal;
 }
+
 .kids {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
-body {
-    background-color: whitesmoke;
+.kids:hover {
+    background-color: teal;
 }
 
+.le {
+    display: none;
+} 
+
+.le:hover {
+    background-color: teal;
+    display: block;
+    position: absolute;
+}
