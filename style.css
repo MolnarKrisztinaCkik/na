@@ -7,8 +7,7 @@ ul {
 
 ul>li {
     display: inline-block;
-    width: 200px;
-    padding: 10px;
+    width: 620px;
 }
 
 #Cím {
@@ -18,4 +17,28 @@ ul>li {
 #alcím {
     text-align: center;
     color: black;
+}
+
+.kids {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.kids:hover {
+    background-color: teal;
+}
+
+.le {
+    display: none;
+} 
+
+.le:hover {
+    background-color: teal;
+    display: block;
+    position: absolute;
 }
