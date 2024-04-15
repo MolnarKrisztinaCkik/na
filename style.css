@@ -13,12 +13,20 @@ ul>li {
 
 #Cím {
     text-align: center;
+    color: whitesmoke;
+    background-color: teal;
 }
 
 #alcím {
     text-align: center;
-    color: black;
+    color: whitesmoke;
+    background-color: teal;
 }
 .kids {
     text-align: center;
 }
+
+body {
+    background-color: whitesmoke;
+}
+
